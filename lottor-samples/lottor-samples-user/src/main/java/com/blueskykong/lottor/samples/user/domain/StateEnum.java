@@ -8,9 +8,9 @@ public enum StateEnum {
 
     PRODUCE_SUCCESS(0, "PRODUCE_SUCCESS"),
 
-    PRODUCE_FAIL(1, "PRODUCE_SUCCESS"),
+    PRODUCE_FAIL(1, "PRODUCE_FAIL"),
 
-    CONSUME_FAIL(2, "PRODUCE_SUCCESS");
+    CONSUME_FAIL(2, "CONSUME_FAIL");
 
 
     private int index;
